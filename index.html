@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Essentials</title>
+    </head>
+	
+	<! THE BODY OF THE WEB PAGE BIGINS HERE
+		IT CONTAINS THREE SELECT DROPDOWNS NAMELY; background, width AND height	
+	>
+	
+    <body>
+<! The block below gives details about the background dropdown with options, Green, Yellow and Red>  
+		
+        <select name="cssProperty" id="background">
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Red">Red</option>
+        </select>
+		
+<! The block below gives details about the width dropdown with options, 100px, 200px and 300px>  
+
+        <select name="cssProperty" id="width">
+            <option value="100px">100px</option>
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+        </select>
+		
+<! The block below gives details about the height dropdown with options, 100px, 200px and 300px>  
+
+        <select name="cssProperty" id="height">
+            <option value="100px">100px</option>
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+        </select>
+		
+<! The block below creates a command button named Set>   
+     
+        <button id="set">Set</button>
+        
+        <br><br>
+		
+<! This block of code sets the default background, widthand height to blue, 300px and 300px respectively>    
+      
+        <div id="modify" style="width:300px;height:300px;background:blue"></div>
+		
+<! The javascript file called my_script regulates the functionality of the dropdown. Thus it performs the task according
+to the selections made by the user in the variuos drop downs>
+          
+        <script src="my_script.js"></script>
+        
+    </body>
+	
+	<!NOTE: THIS CODE WAS ADOPTED FROM THE LINK BELOW.
+	https://att-b.udemycdn.com/2017-09-06_12-26-05-eed9c74d5e93d019e4e08520a8f32476/original.zip?secure=TDA7vRsOUarZeFm4DNr6kQ%3D%3D%2C1602086924&filename=37+Sourcefiles.zip
+	>
+	
+</html>
